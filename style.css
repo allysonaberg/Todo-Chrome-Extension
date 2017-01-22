@@ -1,0 +1,111 @@
+body{
+   width:240px;
+   height:150px;
+   }
+
+#banner {
+background-color: #f44336;
+color: white;
+margin-bottom: center;
+text-align: center;
+display: block;
+margin-top: -8%;
+margin-left: -8%;
+margin-right: -8%;
+}
+
+#bottom {
+display: block;
+}
+h1 {
+  font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Open Sans";
+}
+
+p {
+margin-top: -5%;}
+
+#forms {
+  display: block;
+  line-height: 10px;
+  text-align: center;
+}
+button {
+  font-size: 12px;
+  font-family: "Open Sans",serif;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #f44336;
+}
+
+button:focus {
+  outline: none
+}
+
+section.flat button {
+  color: #fff;
+background-color: #f44336;
+  border: none;
+}
+
+section.flat button:hover,
+section.flat button.hover,
+section.flat button:active,
+section.flat button.active {
+background-color: black;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Open Sans";
+
+}
+#add {
+  margin:auto;
+  margin-top: 2%;
+  display:block;
+}
+
+ul {
+    margin: 0;
+    margin-top: 2;
+    padding: 0;
+}
+
+li {
+  margin-top: 10%;
+  vertical-align: middle;
+
+
+#hour, #minute {
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.remove {
+margin-right: 2%;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#buttonshow {
+background-color: white;
+margin-left: 5px;
+}
